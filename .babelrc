@@ -16,6 +16,7 @@
     },
     "development": {
       "plugins": [
+        "transform-react-jsx-source",
         "typecheck",
         [
           "react-transform",

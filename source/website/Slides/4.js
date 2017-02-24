@@ -1,14 +1,14 @@
 import React from 'react'
-import { TitleSlide } from '../../modules'
+import { ContentSlide, Step } from '../../modules'
+import TweetEmbed from 'react-tweet-embed'
 
 const slide = () => (
-  <TitleSlide>
+  <ContentSlide>
     <h1>{slide.title}</h1>
-    <p>Check back soon for more updates and components.</p>
-    <p>File bugs and issues here <i className='fa fa-github' /> <a href='https://github.com/bvaughn/react-presents'>github.com/bvaughn/react-presents</a></p>
-  </TitleSlide>
+    <div><TweetEmbed id='827706179027562496' /></div>
+  </ContentSlide>
 )
 
-slide.title = 'Thanks for reading!'
+slide.title = 'React core api'
 
 export default slide

@@ -18,7 +18,6 @@
     "clean:umd": "rimraf dist/umd",
     "deploy": "gh-pages -d build",
     "lint": "standard",
-    "prebuild": "npm run lint",
     "predeploy": "cp ./circle.yml ./build/",
     "postpublish": "npm run deploy",
     "prepublish": "npm run build",
